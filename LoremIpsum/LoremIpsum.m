@@ -239,22 +239,22 @@ NSUInteger LIRandomUnsignedInteger(NSUInteger lowerBound, NSUInteger upperBound)
 
     switch (service) {
         case LIPlaceholderImageServiceLoremPixel: {
-            URLString = [NSString stringWithFormat:@"http://lorempixel.com/%zd/%zd/", width, height];
+            URLString = [NSString stringWithFormat:@"https://lorempixel.com/%zd/%zd/", width, height];
             break;
         }
 
         case LIPlaceholderImageServiceHhhhold: {
-            URLString = [NSString stringWithFormat:@"http://hhhhold.com/%zdx%zd", width, height];
+            URLString = [NSString stringWithFormat:@"https://hhhhold.com/%zdx%zd", width, height];
             break;
         }
 
         case LIPlaceholderImageServiceDummyImage: {
-            URLString = [NSString stringWithFormat:@"http://dummyimage.com/%zdx%zd", width, height];
+            URLString = [NSString stringWithFormat:@"https://dummyimage.com/%zdx%zd", width, height];
             break;
         }
 
         case LIPlaceholderImageServicePlaceKitten: {
-            URLString = [NSString stringWithFormat:@"http://placekitten.com/%zd/%zd/", width, height];
+            URLString = [NSString stringWithFormat:@"https://placekitten.com/%zd/%zd/", width, height];
             break;
         }
     }
